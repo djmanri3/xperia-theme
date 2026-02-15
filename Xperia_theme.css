@@ -372,3 +372,11 @@ button[title="Pausa"] .osdIconButton-icon {
     -webkit-backdrop-filter: blur(15px) !important; 
     border-top: 1px solid rgba(255, 255, 255, 0.1);
 }
+
+/* Drawers */
+.mainDrawer{
+    background: rgba(20, 20, 20, 0.24) !important;
+    backdrop-filter: blur(50px) !important; 
+    -webkit-backdrop-filter: blur(50px) !important; 
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
