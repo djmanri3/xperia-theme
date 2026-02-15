@@ -11,19 +11,19 @@
     --size-floating-player: 50px;
 
     /* icons */
-    --play-icon: url('https://github.com/AyraHikari/SonyAppsPort/blob/main/SonyMusic/res/drawable-land-xhdpi/widget_play_normal.png?raw=true');
-    --pause-icon: url('https://github.com/AyraHikari/SonyAppsPort/blob/main/SonyMusic/res/drawable-land-xhdpi/widget_pause_normal.png?raw=true');
-    --next-icon: url('https://github.com/AyraHikari/SonyAppsPort/blob/main/SonyMusic/res/drawable-land-xhdpi/widget_next_normal.png?raw=true');
-    --previous-icon: url('https://github.com/AyraHikari/SonyAppsPort/blob/main/SonyMusic/res/drawable-land-xhdpi/widget_previous_normal.png?raw=true');
-    --repeat-one-on: url('https://github.com/AyraHikari/SonyAppsPort/blob/main/SonyMusic/res/drawable-sw400dp-xhdpi/playerview_repeat_one.png?raw=true');
-    --repeat-all-off: url('https://github.com/AyraHikari/SonyAppsPort/blob/main/SonyMusic/res/drawable-sw400dp-xhdpi/playerview_repeat_off.png?raw=true');
-    --repeat-all-on: url('https://github.com/AyraHikari/SonyAppsPort/blob/main/SonyMusic/res/drawable-sw400dp-xhdpi/playerview_repeat_all.png?raw=true');
-    --shuffle-on: url('https://github.com/AyraHikari/SonyAppsPort/blob/main/SonyMusic/res/drawable-sw400dp-xhdpi/playerview_shuffle_on.png?raw=true');
-    --shuffle-off: url('https://github.com/AyraHikari/SonyAppsPort/blob/main/SonyMusic/res/drawable-sw400dp-xhdpi/playerview_shuffle_off.png?raw=true');
-    --playlist: url('https://github.com/AyraHikari/SonyAppsPort/blob/main/SonyMusic/res/drawable-nodpi/music_list_default_playlist.png?raw=true');
-    --settings: url('https://github.com/AyraHikari/SonyAppsPort/blob/main/SonyMusic/res/drawable-xxhdpi/quick_play_settings.png?raw=true');
-    --favorite-off: url('https://github.com/AyraHikari/SonyAppsPort/blob/main/SonyMusic/res/drawable-xxhdpi/ic_fullscreen_favorite_off.png?raw=true');
-    --favorite-on: url('https://github.com/AyraHikari/SonyAppsPort/blob/main/SonyMusic/res/drawable-xxhdpi/ic_fullscreen_favorite_on.png?raw=true');
+    --play-icon: url('https://github.com/djmanri3/xperia-theme/blob/main/img/widget_play_normal.png?raw=true');
+    --pause-icon: url('https://github.com/djmanri3/xperia-theme/blob/main/img/widget_pause_normal.png');
+    --next-icon: url('https://github.com/djmanri3/xperia-theme/blob/main/img/widget_next_normal.png?raw=true');
+    --previous-icon: url('https://github.com/djmanri3/xperia-theme/blob/main/img/widget_previous_normal.png?raw=true');
+    --repeat-one-on: url('https://github.com/djmanri3/xperia-theme/blob/main/img/playerview_repeat_one.png?raw=true');
+    --repeat-all-off: url('https://github.com/djmanri3/xperia-theme/blob/main/img/playerview_repeat_off.png?raw=true');
+    --repeat-all-on: url('https://github.com/djmanri3/xperia-theme/blob/main/img/playerview_repeat_all.png?raw=true');
+    --shuffle-on: url('https://github.com/djmanri3/xperia-theme/blob/main/img/playerview_shuffle_on.png?raw=true');
+    --shuffle-off: url('https://github.com/djmanri3/xperia-theme/blob/main/img/playerview_shuffle_off.png?raw=true');
+    --playlist: url('https://github.com/djmanri3/xperia-theme/blob/main/img/music_list_default_playlist.png?raw=true');
+    --settings: url('https://github.com/djmanri3/xperia-theme/blob/main/img/quick_play_settings.png?raw=true');
+    --favorite-off: url('https://github.com/djmanri3/xperia-theme/blob/main/img/ic_fullscreen_favorite_off.png?raw=true');
+    --favorite-on: url('https://github.com/djmanri3/xperia-theme/blob/main/img/ic_fullscreen_favorite_on.png?raw=true');
     --logo: url('https://upload.wikimedia.org/wikipedia/commons/8/81/Xperia_logo.png');
 }
 
