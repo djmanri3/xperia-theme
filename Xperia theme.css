@@ -1,0 +1,288 @@
+
+
+:root {
+    /* colors */
+    --theme-accent-text-color-darkbg: #05edfd !important;
+    --theme-accent-text-color-darkbg-alt: #05edfd !important;
+
+    /* sizes */
+    --size-full-player: 60px;
+    --size-full-player-small: 40px;
+    --size-floating-player: 50px;
+
+    /* icons */
+    --play-icon: url('https://github.com/AyraHikari/SonyAppsPort/blob/main/SonyMusic/res/drawable-land-xhdpi/widget_play_normal.png?raw=true');
+    --pause-icon: url('https://github.com/AyraHikari/SonyAppsPort/blob/main/SonyMusic/res/drawable-land-xhdpi/widget_pause_normal.png?raw=true');
+    --next-icon: url('https://github.com/AyraHikari/SonyAppsPort/blob/main/SonyMusic/res/drawable-land-xhdpi/widget_next_normal.png?raw=true');
+    --previous-icon: url('https://github.com/AyraHikari/SonyAppsPort/blob/main/SonyMusic/res/drawable-land-xhdpi/widget_previous_normal.png?raw=true');
+    --repeat-one-on: url('https://github.com/AyraHikari/SonyAppsPort/blob/main/SonyMusic/res/drawable-sw400dp-xhdpi/playerview_repeat_one.png?raw=true');
+    --repeat-all-off: url('https://github.com/AyraHikari/SonyAppsPort/blob/main/SonyMusic/res/drawable-sw400dp-xhdpi/playerview_repeat_off.png?raw=true');
+    --repeat-all-on: url('https://github.com/AyraHikari/SonyAppsPort/blob/main/SonyMusic/res/drawable-sw400dp-xhdpi/playerview_repeat_all.png?raw=true');
+    --shuffle-on: url('https://github.com/AyraHikari/SonyAppsPort/blob/main/SonyMusic/res/drawable-sw400dp-xhdpi/playerview_shuffle_on.png?raw=true');
+    --shuffle-off: url('https://github.com/AyraHikari/SonyAppsPort/blob/main/SonyMusic/res/drawable-sw400dp-xhdpi/playerview_shuffle_off.png?raw=true');
+    --playlist: url('https://github.com/AyraHikari/SonyAppsPort/blob/main/SonyMusic/res/drawable-nodpi/music_list_default_playlist.png?raw=true');
+    --settings: url('https://github.com/AyraHikari/SonyAppsPort/blob/main/SonyMusic/res/drawable-xxhdpi/quick_play_settings.png?raw=true');
+    --favorite-off: url('https://github.com/AyraHikari/SonyAppsPort/blob/main/SonyMusic/res/drawable-xxhdpi/ic_fullscreen_favorite_off.png?raw=true');
+    --favorite-on: url('https://github.com/AyraHikari/SonyAppsPort/blob/main/SonyMusic/res/drawable-xxhdpi/ic_fullscreen_favorite_on.png?raw=true');
+    --logo: url('https://upload.wikimedia.org/wikipedia/commons/8/81/Xperia_logo.png');
+}
+
+.pageTitleWithDefaultLogo {
+    background-image: var(--logo) !important;
+    filter: invert(100%);
+    /* filter to blue: brightness(0) saturate(100%) invert(39%) sepia(93%) saturate(1352%) hue-rotate(162deg) brightness(92%) contrast(100%); */
+}
+
+
+/* ----------- */
+/* Player full screen */
+/* ----------- */
+
+.emby-slider-background-lower{
+    background: var(--theme-accent-text-color-darkbg);
+}
+
+/* Cuando está PAUSADO → muestra icono de Play */
+button[title="Reproducir"] .osdIconButton-icon {
+    font-size: 0 !important;
+    background-image: var(--play-icon);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: var(--size-full-player);
+    height: var(--size-full-player);
+    display: inline-block;
+}
+
+/* Cuando está REPRODUCIENDO → muestra icono de Pausa */
+button[title="Pausa"] .osdIconButton-icon {
+    font-size: 0 !important;
+    background-image: var(--pause-icon);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: var(--size-full-player);
+    height: var(--size-full-player);
+    display: inline-block;
+}
+
+/* Next track */
+.osdIconButton.btnNextTrack.paper-icon-button-light {
+    font-size: 0 !important;
+    background-image: var(--next-icon);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: var(--size-full-player);
+    height: var(--size-full-player);
+    display: inline-block;
+}
+
+/* Previus track */
+.osdIconButton.btnPreviousTrack.paper-icon-button-light {
+    font-size: 0 !important;
+    background-image: var(--previous-icon);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: var(--size-full-player);
+    height: var(--size-full-player);
+    display: inline-block;
+}
+
+/* Repeat all off */
+.osdIconButton.btnOsdRepeatMode.btnOsdRepeatMode-bottom.toggleButton.paper-icon-button-light {
+    font-size: 0 !important;
+    background-image: var(--repeat-all-off);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: var(--size-full-player-small);
+    height: var(--size-full-player-small);
+    display: inline-block;
+}
+
+/* Repeat all on */
+.osdIconButton.btnOsdRepeatMode.btnOsdRepeatMode-bottom.toggleButton.paper-icon-button-light.toggleButton-active {
+    font-size: 0 !important;
+    background-image: var(--repeat-all-on);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: var(--size-full-player-small);
+    height: var(--size-full-player-small);
+    display: inline-block;
+}
+
+/* falta realizar el toggle para repeat one */
+
+/* shuffle off */
+.osdIconButton.btnOsdShuffle.btnOsdShuffle-bottom.toggleButton.paper-icon-button-light {
+    font-size: 0 !important;
+    background-image: var(--shuffle-off);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: var(--size-full-player-small);
+    height: var(--size-full-player-small);
+    display: inline-block;
+}
+
+.osdIconButton.btnOsdShuffle.btnOsdShuffle-bottom.toggleButton.paper-icon-button-light.toggleButton-active{
+    font-size: 0 !important;
+    background-image: var(--shuffle-on);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: var(--size-full-player-small);
+    height: var(--size-full-player-small);
+    display: inline-block;
+}
+
+/* Playlist */
+.osdIconButton.btnPlayQueue.toggleButton.osdContentSectionToggleButton.paper-icon-button-light.toggleButton {
+    font-size: 0 !important;
+    background-image: var(--playlist);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: var(--size-full-player-small);
+    height: var(--size-full-player-small);
+    display: inline-block;
+}
+
+/* Settings */
+.osdIconButton.btnVideoOsdSettings.btnVideoOsdSettings-transport.paper-icon-button-light {
+    font-size: 0 !important;
+    background-image: var(--settings);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+}
+
+/* hide stop button */
+.osdIconButton.btnVideoOsd-stop.btnVideoOsd-stop-center.paper-icon-button-light {
+    display: none;
+}
+
+
+/* ----------- */
+/* Floating player */
+/* ----------- */
+
+/* PlayPause button */
+.nowPlayingBar-hidetv.playPauseButton.mediaButton.md-icon.md-icon-fill.paper-icon-button-light {
+    font-size: 0 !important;
+    background-image: var(--pause-icon);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: var(--size-floating-player);
+    height: var(--size-floating-player);
+    display: inline-block;
+}
+
+.nowPlayingBar-hidetv.nextTrackButton.mediaButton.md-icon.md-icon-fill.paper-icon-button-light {
+    font-size: 0 !important;
+    background-image: var(--next-icon);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: var(--size-floating-player);
+    height: var(--size-floating-player);
+    display: inline-block;
+}
+
+.nowPlayingBar-hidetv.previousTrackButton.mediaButton.md-icon.md-icon-fill.paper-icon-button-light {
+    font-size: 0 !important;
+    background-image: var(--previous-icon);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: var(--size-floating-player);
+    height: var(--size-floating-player);
+    display: inline-block;
+}
+
+/*shuffle button */
+.nowPlayingBar-hidetv.toggleShuffleButton.toggleButton.mediaButton.paper-icon-button-light{
+    font-size: 0 !important;
+    background-image: var(--shuffle-off);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: var(--size-floating-player);
+    height: var(--size-floating-player);
+    display: inline-block;
+}
+
+.nowPlayingBar-hidetv.toggleShuffleButton.toggleButton.mediaButton.paper-icon-button-light.toggleButton-active{
+    font-size: 0 !important;
+    background-image: var(--shuffle-on);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: var(--size-floating-player);
+    height: var(--size-floating-player);
+    display: inline-block;
+}
+
+/* repeat button */
+.nowPlayingBar-hidetv.toggleRepeatButton.toggleButton.mediaButton.paper-icon-button-light{
+    font-size: 0 !important;
+    background-image: var(--repeat-all-off);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: var(--size-floating-player);
+    height: var(--size-floating-player);
+    display: inline-block;
+}
+
+.nowPlayingBar-hidetv.toggleRepeatButton.toggleButton.mediaButton.paper-icon-button-light.toggleButton-active{
+    font-size: 0 !important;
+    background-image: var(--repeat-all-on);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: var(--size-floating-player);
+    height: var(--size-floating-player);
+     display: inline-block;
+}
+
+/* falta realizar el toggle para repeat one */
+
+/* playlist button */
+.nowPlayingBar-hidetv.remoteControlButton.mediaButton.md-icon.autortl.paper-icon-button-light{
+    font-size: 0 !important;
+    background-image: var(--playlist);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: var(--size-floating-player);
+    height: var(--size-floating-player);
+    display: inline-block;
+}
+
+
+/* Stop button */
+.nowPlayingBar-hidetv.stopButton.mediaButton.md-icon.md-icon-fill.paper-icon-button-light {
+    display: none;
+}
+
+/* Bug Play button */
+.nowPlayingBar-hidetv.playPauseButton.playPauseButton-right.mediaButton.md-icon.md-icon-fill.paper-icon-button-light {
+    display: none;
+}
+
+
+.nowPlayingBar-hidetv.toggleShuffleButton.toggleButton.mediaButton.paper-icon-button-light{
+    display: none !important;
+}
+
+.nowPlayingBar-hidetv.toggleRepeatButton.toggleButton.mediaButton.paper-icon-button-light{
+    display: none !important;
+}
