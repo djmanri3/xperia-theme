@@ -337,3 +337,20 @@ button[title="Pausa"] .osdIconButton-icon {
 .nowPlayingBar-hidetv.toggleRepeatButton.toggleButton.mediaButton.paper-icon-button-light{
     display: none !important;
 }
+
+
+/* background of floating player */
+.appfooter {
+    background: rgba(20, 20, 20, 0.24) !important; 
+    backdrop-filter: blur(15px) !important;
+    -webkit-backdrop-filter: blur(15px) !important; 
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* Header */
+.skinHeader {
+    background: rgba(20, 20, 20, 0.24) !important;
+    backdrop-filter: blur(15px) !important; 
+    -webkit-backdrop-filter: blur(15px) !important; 
+    border-top: 1px solid rgba(255, 255, 255, 0.1); 
+}
