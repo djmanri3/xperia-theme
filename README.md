@@ -12,7 +12,7 @@ Access to **Dashboard**, open **general** settings and add on **Custom CSS code*
   @import url("https://cdn.jsdelivr.net/gh/djmanri3/xperia-theme@master/Xperia_theme.css");
   ```
 
-  #Screenshots:
+  Screenshots:
   <img width="1917" height="948" alt="image" src="https://github.com/djmanri3/xperia-theme/blob/main/screenshots/Player.png?raw=true" />
   <img width="1917" height="948" alt="image" src="https://github.com/djmanri3/xperia-theme/blob/main/screenshots/HomeScreen.png?raw=true" />
 
