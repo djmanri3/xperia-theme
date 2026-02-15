@@ -25,12 +25,33 @@
     --favorite-off: url('https://github.com/djmanri3/xperia-theme/blob/main/img/ic_fullscreen_favorite_off.png?raw=true');
     --favorite-on: url('https://github.com/djmanri3/xperia-theme/blob/main/img/ic_fullscreen_favorite_on.png?raw=true');
     --logo: url('https://upload.wikimedia.org/wikipedia/commons/8/81/Xperia_logo.png');
+
+    --wallpaper: url('https://wallpapercave.com/wp/wp3009717.jpg') !important;
+
+    /* Wallpapers:
+        Xperia Z1: https://wallpapercave.com/wp/wp3150122.jpg
+        blue: https://wallpapercave.com/wp/wp3009717.jpg
+        Black: https://wallpapercave.com/wp/wp3150133.jpg
+        Dark blue: https://wallpapercave.com/wp/wp3150137.png
+        Green: https://wallpapercave.com/wp/wp3150138.jpg
+        Purple: https://wallpapercave.com/wp/wp3150150.png
+        White: https://wallpapercave.com/wp/wp3150245.png
+    */
 }
 
 .pageTitleWithDefaultLogo {
     background-image: var(--logo) !important;
     filter: invert(100%);
     /* filter to blue: brightness(0) saturate(100%) invert(39%) sepia(93%) saturate(1352%) hue-rotate(162deg) brightness(92%) contrast(100%); */
+}
+
+.backgroundContainer {
+    background-image: var(--wallpaper) !important;
+    background-size: cover !important;
+    background-attachment: fixed !important;
+    background-position: center !important;
+    filter: blur(15px) brightness(60%) !important;
+    transform: scale(1.1);
 }
 
 
