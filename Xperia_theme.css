@@ -1,5 +1,3 @@
-
-
 :root {
     /* colors */
     --theme-accent-text-color-darkbg: #05edfd !important;
@@ -347,10 +345,30 @@ button[title="Pausa"] .osdIconButton-icon {
     border-top: 1px solid rgba(255, 255, 255, 0.1);
 }
 
+/* ----------- */
+/* Home */
+/* ----------- */
+
 /* Header */
 .skinHeader-withBackground {
     background: rgba(20, 20, 20, 0.24) !important;
     backdrop-filter: blur(15px) !important; 
     -webkit-backdrop-filter: blur(15px) !important; 
     border-top: 1px solid rgba(255, 255, 255, 0.1); 
+}
+
+/* buttons Default Emby */
+.emby-scrollbuttons-scrollbutton {
+    color: var(--theme-accent-text-color-darkbg) !important;
+    background: rgba(20, 20, 20, 0.24) !important;
+    backdrop-filter: blur(15px) !important; 
+    -webkit-backdrop-filter: blur(15px) !important; 
+    border-top: 1px solid rgba(255, 255, 255, 0.1); 
+}
+
+.button-hoverable{
+    background: rgba(20, 20, 20, 0.24) !important;
+    backdrop-filter: blur(10px) !important; 
+    -webkit-backdrop-filter: blur(15px) !important; 
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
 }
