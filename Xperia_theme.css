@@ -124,7 +124,11 @@ button[title="Pausa"] .osdIconButton-icon {
     background-position: center;
     width: var(--size-full-player);
     height: var(--size-full-player);
-    display: inline-block;
+    /* no remove */
+    display: block !important;
+    opacity: 1 !important;       
+    visibility: visible !important; 
+    pointer-events: auto !important; 
 }
 
 /* Previus track */
@@ -136,7 +140,8 @@ button[title="Pausa"] .osdIconButton-icon {
     background-position: center;
     width: var(--size-full-player);
     height: var(--size-full-player);
-    display: inline-block;
+    /* no remove */
+    display: block !important;
 }
 
 /* Repeat all off */
