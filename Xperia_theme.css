@@ -348,7 +348,7 @@ button[title="Pausa"] .osdIconButton-icon {
 }
 
 /* Header */
-.skinHeader {
+.skinHeader-withBackground {
     background: rgba(20, 20, 20, 0.24) !important;
     backdrop-filter: blur(15px) !important; 
     -webkit-backdrop-filter: blur(15px) !important; 
