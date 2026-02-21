@@ -117,7 +117,7 @@ button[title="Pausa"] .osdIconButton-icon {
 }
 
 /* English */
-button[title="Playing"] .osdIconButton-icon {
+button[title="Play"] .osdIconButton-icon {
     font-size: 0 !important;
     background-image: var(--play-icon);
     background-size: contain;
