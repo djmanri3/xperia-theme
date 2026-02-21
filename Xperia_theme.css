@@ -92,6 +92,7 @@
 }
 
 /* Cuando está PAUSADO → muestra icono de Play */
+/* Spanish */
 button[title="Reproducir"] .osdIconButton-icon {
     font-size: 0 !important;
     background-image: var(--play-icon);
@@ -105,6 +106,30 @@ button[title="Reproducir"] .osdIconButton-icon {
 
 /* Cuando está REPRODUCIENDO → muestra icono de Pausa */
 button[title="Pausa"] .osdIconButton-icon {
+    font-size: 0 !important;
+    background-image: var(--pause-icon);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: var(--size-full-player);
+    height: var(--size-full-player);
+    display: inline-block;
+}
+
+/* English */
+button[title="Play"] .osdIconButton-icon {
+    font-size: 0 !important;
+    background-image: var(--play-icon);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: var(--size-full-player);
+    height: var(--size-full-player);
+    display: inline-block;
+}
+
+/* Cuando está REPRODUCIENDO → muestra icono de Pausa */
+button[title="Pause"] .osdIconButton-icon {
     font-size: 0 !important;
     background-image: var(--pause-icon);
     background-size: contain;
