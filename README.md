@@ -18,20 +18,22 @@ Access to **Dashboard**, open **general** settings and add on **Custom CSS code*
   ## Tricks
   ### Change primary color
   You can change primary color, change hex color on value **theme-accent-text-color-darkbg** and **theme-accent-text-color-darkbg-alt**
-   ```
+  ```
   @import url("https://cdn.jsdelivr.net/gh/djmanri3/xperia-theme@master/Xperia_theme.css");
 
   :root {
-    /* colors */
+    /* Color of playing bar */
+    /* Color of primary color */
     --music-progress-bar-background: var(--theme-accent-text-color-darkbg) !important;
     --music-progress-bar: none !important; 
 
+    /* colors */
     --theme-accent-text-color-darkbg: #05edfd !important;
     --theme-accent-text-color-darkbg-alt: #05edfd !important;
   }
   ```
 
-  ### Primary color or color of album on palying bar?
+  ### Primary color or color of album on palying bar
   You can decide color of playing bar, primary color or album color
 
   Primary color:
