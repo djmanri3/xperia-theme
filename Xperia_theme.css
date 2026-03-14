@@ -9,19 +9,20 @@
     --size-floating-player: 50px;
 
     /* icons */
-    --play-icon: url('https://github.com/djmanri3/xperia-theme/blob/main/img/widget_play_normal.png?raw=true');
-    --pause-icon: url('https://github.com/djmanri3/xperia-theme/blob/main/img/widget_pause_normal.png?raw=true');
-    --next-icon: url('https://github.com/djmanri3/xperia-theme/blob/main/img/widget_next_normal.png?raw=true');
-    --previous-icon: url('https://github.com/djmanri3/xperia-theme/blob/main/img/widget_previous_normal.png?raw=true');
-    --repeat-one-on: url('https://github.com/djmanri3/xperia-theme/blob/main/img/playerview_repeat_one.png?raw=true');
-    --repeat-all-off: url('https://github.com/djmanri3/xperia-theme/blob/main/img/playerview_repeat_off.png?raw=true');
-    --repeat-all-on: url('https://github.com/djmanri3/xperia-theme/blob/main/img/playerview_repeat_all.png?raw=true');
-    --shuffle-on: url('https://github.com/djmanri3/xperia-theme/blob/main/img/playerview_shuffle_on.png?raw=true');
-    --shuffle-off: url('https://github.com/djmanri3/xperia-theme/blob/main/img/playerview_shuffle_off.png?raw=true');
-    --playlist: url('https://github.com/djmanri3/xperia-theme/blob/main/img/music_list_default_playlist.png?raw=true');
-    --settings: url('https://github.com/djmanri3/xperia-theme/blob/main/img/quick_play_settings.png?raw=true');
-    --favorite-off: url('https://github.com/djmanri3/xperia-theme/blob/main/img/ic_fullscreen_favorite_off.png?raw=true');
-    --favorite-on: url('https://github.com/djmanri3/xperia-theme/blob/main/img/ic_fullscreen_favorite_on.png?raw=true');
+    /* image upload on https://imgbb.com */
+    --play-icon: url('https://i.ibb.co/zVLX6nhc/widget-play-normal.png');
+    --pause-icon: url('https://i.ibb.co/FknhYKm9/widget-pause-normal.png');
+    --next-icon: url('https://i.ibb.co/HLpzgy09/widget-next-normal.png');
+    --previous-icon: url('https://i.ibb.co/LXVNkWKr/widget-previous-normal.png');
+    --repeat-one-on: url('https://i.ibb.co/yFGH6zH3/playerview-repeat-one.png');
+    --repeat-all-off: url('https://i.ibb.co/PGfL9Y6J/playerview-repeat-off.png');
+    --repeat-all-on: url('https://i.ibb.co/8DdDmr2H/playerview-repeat-all.png');
+    --shuffle-on: url('https://i.ibb.co/v6dpNPv2/playerview-shuffle-on.png');
+    --shuffle-off: url('https://i.ibb.co/qF7KJrmr/playerview-shuffle-off.png');
+    --playlist: url('https://i.ibb.co/9kd5Jm87/music-list-default-playlist.png');
+    --settings: url('https://i.ibb.co/M5VsFPs3/quick-play-settings.png');
+    --favorite-off: url('https://i.ibb.co/vxxdZqx3/ic-fullscreen-favorite-off.png');
+    --favorite-on: url('https://i.ibb.co/KzbGtxcS/ic-fullscreen-favorite-on.png');
     --logo: url('https://upload.wikimedia.org/wikipedia/commons/8/81/Xperia_logo.png');
 
     --wallpaper: url('https://wallpapercave.com/wp/wp3009717.jpg') !important;
