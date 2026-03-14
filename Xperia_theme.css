@@ -9,7 +9,6 @@
     --size-floating-player: 50px;
 
     /* icons */
-    /* image upload on https://imgbb.com */
     --play-icon: url('https://i.ibb.co/zVLX6nhc/widget-play-normal.png');
     --pause-icon: url('https://i.ibb.co/FknhYKm9/widget-pause-normal.png');
     --next-icon: url('https://i.ibb.co/HLpzgy09/widget-next-normal.png');
@@ -88,8 +87,15 @@
 /* Player full screen */
 /* ----------- */
 
+.emby-slider-background {
+   background: transparent
+}
+
 .emby-slider-background-lower{
-    background: var(--theme-accent-text-color-darkbg);
+    background: rgb(119 119 119 / 44%) !important;
+    /* transparent: */ /* background: rgb(20 20 20 / 0%) !important; */
+    backdrop-filter: blur(50px) brightness(0.95) saturate(5) contrast(2) !important;
+    /* background: var(--theme-accent-text-color-darkbg); */
 }
 
 /* Cuando está PAUSADO → muestra icono de Play */
