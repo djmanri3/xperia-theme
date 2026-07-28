@@ -53,7 +53,7 @@
     /* filter to blue: brightness(0) saturate(100%) invert(39%) sepia(93%) saturate(1352%) hue-rotate(162deg) brightness(92%) contrast(100%); */
 }
 
-.backgroundContainer{
+.homeSectionsContainer::before{
     content: "";
     position: fixed;
     top: 0;
