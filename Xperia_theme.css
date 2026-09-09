@@ -24,7 +24,10 @@
     --favorite-on: url('https://i.ibb.co/KzbGtxcS/ic-fullscreen-favorite-on.png');
     --logo: url('https://upload.wikimedia.org/wikipedia/commons/8/81/Xperia_logo.png');
 
-    --wallpaper: url('https://wallpapercave.com/wp/wp3009717.jpg') !important;
+    /*--wallpaper: url('https://wallpapercave.com/wp/wp3009717.jpg') !important; */
+    /*--wallpaper: url('https://lh3.googleusercontent.com/pw/AP1GczNB3LVUR21QALoaF1UTeVKPL3v9GGnZn_w0D5wRRzLEKxsfk8K1kc5ld-coVY7G8U_S4xo1F34NdIh5mG5NOg7lTz04tPUoOIgOBIGwKKPYXBeU-YwnGJ8iEedrVBH_Dd-pckSqM_5u1ighAvellLpR=w1302-h954-s-no-gm?authuser=0') !important;*/
+
+    --wallpaper: url('https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExeWhvam9tdjFxMGdycWs5bDl2bDRob2VzNjY2Zzk3aHhpNm03NDJpMyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/vmqXeto8Xdh5Ytrmcb/giphy.gif') !important;
 
     /* Color of playing bar */
     /* Color of cover */
@@ -38,6 +41,7 @@
 
     /* Wallpapers:
         Xperia Z1: https://wallpapercave.com/wp/wp3150122.jpg
+        Xperia U: https://lh3.googleusercontent.com/pw/AP1GczNB3LVUR21QALoaF1UTeVKPL3v9GGnZn_w0D5wRRzLEKxsfk8K1kc5ld-coVY7G8U_S4xo1F34NdIh5mG5NOg7lTz04tPUoOIgOBIGwKKPYXBeU-YwnGJ8iEedrVBH_Dd-pckSqM_5u1ighAvellLpR=w1302-h954-s-no-gm?authuser=0
         blue: https://wallpapercave.com/wp/wp3009717.jpg
         Black: https://wallpapercave.com/wp/wp3150133.jpg
         Dark blue: https://wallpapercave.com/wp/wp3150137.png
@@ -58,14 +62,14 @@
     position: fixed;
     top: 0;
     left: 0;
-    width: 100%;
+    width: 190%;
     height: 100%;
     
-    background-image: var(--wallpaper) !important;
-    background-size: cover !important;
-    background-position: center !important;
+    background-image: var(--wallpaper);
+    background-size: cover;
+    background-position: center;
     
-    filter: blur(25px) brightness(50%) !important;
+    filter: blur(25px) brightness(50%);
     
     transform: scale(1.1);
     
@@ -84,6 +88,7 @@
     background-image: var(--wallpaper) !important;
     background-size: cover !important;
     background-position: center !important;
+    background-attachment: fixed !important;
     
     filter: blur(25px) brightness(50%) !important;
     
@@ -97,9 +102,9 @@
 /* Player full screen */
 /* ----------- */
 
-.emby-slider-background {
-   background: transparent;
-}
+/*.emby-slider-background {
+   background: transparent !important;
+}*/
 
 .emby-slider-background-lower{
     background: var(--music-progress-bar-background) !important;
@@ -262,6 +267,11 @@ button[title="Pause"] .osdIconButton-icon {
 /* hide stop button */
 .osdIconButton.btnVideoOsd-stop.btnVideoOsd-stop-center.paper-icon-button-light {
     display: none;
+}
+
+/* Para que la caratula del albúm sea recta */
+.osdRemoteControlImageCardContent.osdRemoteControlImageCardContent {
+	border-radius: .0em !important;
 }
 
 
