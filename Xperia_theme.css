@@ -395,7 +395,7 @@ button[title="Pause"] .osdIconButton-icon {
 
 
 /* background of floating player */
-.appfooter {
+.nowPlayingBar {
     background: rgba(20, 20, 20, 0.24) !important; 
     backdrop-filter: blur(15px) !important;
     -webkit-backdrop-filter: blur(15px) !important; 
@@ -408,7 +408,7 @@ button[title="Pause"] .osdIconButton-icon {
 
 /* Header */
 .skinHeader-withBackground {
-    background: rgba(20, 20, 20, 0.24) !important;
+    background: rgba(20, 20, 20, 0) !important;
     backdrop-filter: blur(15px) !important; 
     -webkit-backdrop-filter: blur(15px) !important; 
     border-top: 1px solid rgba(255, 255, 255, 0.1); 
